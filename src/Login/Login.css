@@ -1,0 +1,33 @@
+.Login-form{
+    border: 1px solid blue;
+     width:30%;
+     height: auto;
+     margin: 40px auto;
+     background:rgb(17, 17, 114) ;
+     color: white;
+     padding: 30px;
+     border-radius: 20px;
+}
+
+input {
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .error-msg{
+      color: red;
+  }
+
+  .Login-button{
+      border-radius: 30px;
+      border-style: none;
+      background-color: rgb(146, 113, 238);
+      padding: 15px;
+      color: white;
+      margin-top: 40px;
+      width: 40%;
+      font-size: medium;
+  }
+

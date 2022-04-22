@@ -1,0 +1,53 @@
+.dashBoard-container{
+    width: 100%;
+}
+.dashBoard-otpions {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.dashBoard-otpions > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: rgb(197, 195, 195);
+    width: 20%;
+    height: 80px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20%;
+    font-weight:bold;
+}
+.Photo{
+    height: 30px;
+    width: 30px;
+    color: black;
+}
+.my-details > div{
+    padding: 5px;
+}
+
+.editing{
+    color: white;
+    margin: 0px 20px;
+    background-color: steelblue;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.editing-textarea{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.Edit-Address> button{
+    padding: 10px;
+    background-color: rgb(142, 142, 243);
+    border-style: none;
+    color: white;
+}
+
+.Edit-Address{
+    font-weight: 600;
+}
